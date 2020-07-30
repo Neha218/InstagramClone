@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Neha:GDeZep3TKtwuCX2p@instagramclone.mj5ox.mongodb.net/InstagramClone?retryWrites=true&w=majority",
+  "jwtSecret": "asdfqwer"
+}

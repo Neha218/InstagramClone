@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+nav {
+  padding: 5px;
+}
+
+a {
+  color: black !important;
+}
+
+.brand-logo,
+h2 {
+  font-family: "Grand Hotel", cursive;
+}
+
+.mycard {
+  margin-top: 30px;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #42a5f5 !important;
+  box-shadow: 0 1px 0 0 #42a5f5 !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #42a5f5 !important;
+  box-shadow: 0 1px 0 0 #42a5f5 !important;
+}
+.input-field input[type="file"]:focus {
+  border-bottom: 1px solid #42a5f5 !important;
+  box-shadow: 0 1px 0 0 #42a5f5 !important;
+}
+
+.profile-page {
+  max-width: 736px;
+  margin: 0px auto;
+}
+
+.profile-header {
+  margin: 18px 20px;
+  border-bottom: 1px solid grey;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.updateprofile {
+  margin: 10px 0px 10px 109px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+
+.profile-img-update {
+  margin: 10px 0px 10px 20px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+}
+
+.file {
+  margin: 10px;
+}
+
+.profile-follow {
+  margin: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+  padding: 5px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .btn {
+  position: absolute;
+  display: none;
+}
+
+.item:hover img {
+  opacity: 70%;
+  width: 100%;
+}
+
+.item:hover .btn {
+  display: block;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 20px auto !important;
+}
+
+.home-card-header {
+  display: flex;
+  padding: 6px;
+}
+
+.home-card-header h5 {
+  margin: auto 10px;
+}
+
+.home-card-header-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.createpost-card {
+  margin: 30px auto !important;
+  max-width: 500px !important;
+  padding: 20px !important;
+  text-align: center !important;
+}
+
+#toast-container {
+  top: 50px !important;
+  right: 20px !important;
+  left: auto;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
