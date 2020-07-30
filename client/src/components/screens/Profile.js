@@ -34,13 +34,10 @@ const Profile = () => {
           data.append("file", image);
           data.append("upload_preset", "InstagramClone");
           data.append("cloud_name", "nbcloud");
-          const response = await fetch(
-            "https://api.cloudinary.com/v1_1/nbcloud/image/upload",
-            {
-              method: "POST",
-              body: data
-            }
-          );
+          const response = await fetch("PLACE_YOUR_CLOUDINARY_URL", {
+            method: "POST",
+            body: data
+          });
 
           if (response) {
             var jsonResponse = await response.json();
